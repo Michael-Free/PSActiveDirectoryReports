@@ -37,8 +37,8 @@ function Get-InactiveUsersReport {
 
     .NOTES
         Author      : Michael Free
-        Date        : 2025-02-27
-        License     : BSD 3-Clause License
+        Date        : 2025-03-23
+        License     : Free Custom License (FCL) v1.0
         Copyright   : 2025, Michael Free. All Rights Reserved.
         Requires    : Active Directory module
 
@@ -101,8 +101,8 @@ function Get-LockedUsersReport {
 
     .NOTES
         Author      : Michael Free
-        Date        : 2025-02-27
-        License     : BSD 3-Clause License
+        Date        : 2025-03-23
+        License     : Free Custom License (FCL) v1.0
         Copyright   : 2025, Michael Free. All Rights Reserved.
         Requires    : Active Directory module
 
@@ -158,8 +158,8 @@ function Get-DisabledUsersReport {
 
     .NOTES
         Author      : Michael Free
-        Date        : 2025-02-27
-        License     : BSD 3-Clause License
+        Date        : 2025-03-23
+        License     : Free Custom License (FCL) v1.0
         Copyright   : 2025, Michael Free. All Rights Reserved.
         Requires    : Active Directory module
 
@@ -215,8 +215,8 @@ function Get-UsersOrgUnitReport {
 
     .NOTES
         Author      : Michael Free
-        Date        : 2025-02-27
-        License     : BSD 3-Clause License
+        Date        : 2025-03-23
+        License     : Free Custom License (FCL) v1.0
         Copyright   : 2025, Michael Free. All Rights Reserved.
         Requires    : Active Directory module
 
@@ -274,8 +274,8 @@ function Get-ExpiredUsersReport {
 
     .NOTES
         Author      : Michael Free
-        Date        : 2025-02-27
-        License     : BSD 3-Clause License
+        Date        : 2025-03-23
+        License     : Free Custom License (FCL) v1.0
         Copyright   : 2025, Michael Free. All Rights Reserved.
         Requires    : Active Directory module
 
@@ -339,8 +339,8 @@ function Get-ExpiringUsersReport {
 
     .NOTES
         Author      : Michael Free
-        Date        : 2025-02-27
-        License     : BSD 3-Clause License
+        Date        : 2025-03-23
+        License     : Free Custom License (FCL) v1.0
         Copyright   : 2025, Michael Free. All Rights Reserved.
         Requires    : Active Directory module
 
@@ -402,8 +402,8 @@ function Get-InactiveDevicesReport {
 
     .NOTES
         Author      : Michael Free
-        Date        : 2025-02-27
-        License     : BSD 3-Clause License
+        Date        : 2025-03-23
+        License     : Free Custom License (FCL) v1.0
         Copyright   : 2025, Michael Free. All Rights Reserved.
         Requires    : Active Directory module
 
@@ -468,8 +468,8 @@ function Get-DevicesOrgUnitReport {
 
     .NOTES
         Author      : Michael Free
-        Date        : 2025-02-27
-        License     : BSD 3-Clause License
+        Date        : 2025-03-23
+        License     : Free Custom License (FCL) v1.0
         Copyright   : 2025, Michael Free. All Rights Reserved.
         Requires    : Active Directory module
 
@@ -522,8 +522,8 @@ function Get-OnlineDevicesReport {
 
     .NOTES
         Author      : Michael Free
-        Date        : 2025-02-27
-        License     : BSD 3-Clause License
+        Date        : 2025-03-23
+        License     : Free Custom License (FCL) v1.0
         Copyright   : 2025, Michael Free. All Rights Reserved.
         Requires    : Active Directory module
 
@@ -592,8 +592,8 @@ function Get-DomainControllerReport {
 
     .NOTES
         Author      : Michael Free
-        Date        : 2025-02-27
-        License     : BSD 3-Clause License
+        Date        : 2025-03-23
+        License     : Free Custom License (FCL) v1.0
         Copyright   : 2025, Michael Free. All Rights Reserved.
         Requires    : Active Directory module
 
