@@ -179,7 +179,7 @@ Get-UsersOrgUnitReport | Export-Csv -Path "C:\Reports\UsersOU.csv" -NoTypeInform
 Exports the users' OU report to a CSV file.
 
 ## License
-BSD 3-Clause License
+Free Custom License (FCL) v1.0
 
 Copyright (c) 2025, Michael Free
 
