@@ -6,39 +6,43 @@ This module provides PowerShell cmdlets that streamline AD administration by aut
 
 ## Prerequisites:
 
-* Windows Server (not Windows Desktop)
-* The server must be a domain controller, or it can be any Windows Server joined to a Windows domain.
-* User must have administrative privileges.
-* ActiveDirectory Powershell module must be installed. This can be done using the following command:
+- Windows Server (not Windows Desktop)
+- The server must be a domain controller, or it can be any Windows Server joined to a Windows domain.
+- User must have administrative privileges.
+- ActiveDirectory Powershell module must be installed. This can be done using the following command:
+
 ```powershell
 Install-WindowsFeature -Name "RSAT-AD-PowerShell"
 ```
+
 or
+
 ```powershell
 Add-WindowsFeature -Name "RSAT-AD-PowerShell"
 ```
 Note that this will install the ActiveDirectory PowerShell module on your Windows Server.
 
-* Basic scripting knowledge and an understanding of how PowerShell works is required.
+- Basic scripting knowledge and an understanding of how PowerShell works is required.
 
 ## Installation
 
 There are two ways to install the `PSActiveDirectoryReports` module:
 
 1. **Using PowerShell Gallery**
-        * Open PowerShell as an administrator and run the following command to install the module from the PowerShell Gallery:
-```powershell
-Install-Module -Name PSActiveDirectoryReports -Scope CurrentUser
-```
+    - Open PowerShell as an administrator and run the following command to install the module from the PowerShell Gallery:
+    ```powershell
+    Install-Module -Name PSActiveDirectoryReports -Scope CurrentUser
+    ```
 2. **Manual Installation**
-        * Clone this repository using Git or download the ZIP file.
-        * Extract the contents of the ZIP file to a directory on your computer.
-        * Open PowerShell as an administrator and navigate to the directory where you extracted the module files.
-        * Run the following command to install the module:
-```powershell
-Import-Module -Name .\PSActiveDirectoryReports.ps1
-```
-Note that the manual installation method requires you to have Git installed on your computer, as well as the ability to extract ZIP files. If you do not have these tools installed, you can use the PowerShell Gallery method instead.
+    - Clone this repository using Git or download the ZIP file.
+    - Extract the contents of the ZIP file to a directory on your computer.
+    - Open PowerShell as an administrator and navigate to the directory where you extracted the module files.
+    - Run the following command to install the module:
+
+    ```powershell
+    Import-Module -Name .\PSActiveDirectoryReports.ps1
+    ```
+    Note that the manual installation method requires you to have Git installed on your computer, as well as the ability to extract ZIP files. If you do not have these tools installed, you can use the PowerShell Gallery method instead.
 
 ## Usage
 
@@ -147,7 +151,9 @@ Get-LockedUsersReport | Export-Csv -Path "C:\Reports\LockedUsers.csv" -NoTypeInf
 Exports the locked-out users report to a CSV file.
 
 ### Get-OnlineDevicesReport
-**EXPERIMENTAL** The `Get-OnlineDevicesReport` function queries all computers in Active Directory and performs a network connectivity check using `Test-Connection`. It returns a list of devices that are online, along with their hostname, IP address, and the last seen timestamp.
+**EXPERIMENTAL** 
+
+The `Get-OnlineDevicesReport` function queries all computers in Active Directory and performs a network connectivity check using `Test-Connection`. It returns a list of devices that are online, along with their hostname, IP address, and the last seen timestamp.
 
 ```powershell
 Get-OnlineDevicesReport
@@ -183,10 +189,10 @@ Copyright (c) 2025, Michael Free
 
 If you encounter any issues while using the tool, please report them in the issue tracker on GitHub. Be sure to include the following information in your bug report:
 
-* The steps to reproduce the issue
-* The expected behavior
-* The actual behavior
-* Any error messages or stack traces associated with the issue
+- The steps to reproduce the issue
+- The expected behavior
+- The actual behavior
+- Any error messages or stack traces associated with the issue
 
 ### Requesting Features
 
